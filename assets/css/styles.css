@@ -1,0 +1,22 @@
+.homework-form {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 800px;
+    height: 300px;
+    border: solid;
+}
+
+
+nav > ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.underlined {
+    color: aquamarine;
+    text-decoration: underline;
+}

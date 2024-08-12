@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 15</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    
+
+    <nav>
+        <ul>
+            <li>Logo</li>
+            <li class="underlined">Home</li>
+            <li class="underlined">About</li>
+            <li class="underlined">Pricing</li>
+            <li class="underlined">Blog</li>
+        </ul>
+    </nav>
+
+    
+    <div class="homework-form">
+        <label for="simple-form">Ваш номер телефона:</label>
+        <br>
+        <input type="text"
+        class="simple-form"
+        id="simple-form"
+        placeholder="+380..."
+        required
+        pattern="(^\+380[0-9]{9}$|^\+38\([0-9]{3}\)[0-9]{7}$|^\+38\([0-9]{3}\)[0-9]{3}\-[0-9]{2}\-[0-9]{2}$)">
+        
+        <input type="submit" value="Submit">
+        <small class="form-text text-muted">
+        </br> * Это поле обязательно к заполнению.
+        </small>
+
+
+    </div>
+
+
+</body>
+</html>
