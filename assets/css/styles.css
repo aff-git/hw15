@@ -20,3 +20,10 @@ nav > ul {
     color: aquamarine;
     text-decoration: underline;
 }
+
+.simple-form:valid {
+    background: lightgreen;
+}
+.simple-form:invalid {
+    background: lightcoral;
+}

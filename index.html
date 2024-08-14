@@ -28,7 +28,11 @@
         id="simple-form"
         placeholder="+380..."
         required
-        pattern="(^\+380[0-9]{9}$|^\+38\([0-9]{3}\)[0-9]{7}$|^\+38\([0-9]{3}\)[0-9]{3}\-[0-9]{2}\-[0-9]{2}$)">
+        pattern="\+380[0-9]{9}|\+38\([0-9]{3}\)[0-9]{7}|^\+38\([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}$">
+        
+        
+        <!-- pattern consist's from 3 sub-patterns -->
+        
         
         <input type="submit" value="Submit">
         <small class="form-text text-muted">
